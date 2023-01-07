@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Moon+Dance&family=PT+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    width: 57%;
+    margin: 25px auto;
+    margin-bottom: 0px;
+    
+}
+
+.presentacion{
+    text-align: center;
+    color: #fff;
+}
+
+h5{
+    color: #ce798c;
+    text-align: start;
+    padding-left: 5%;
+    font-family: 'Merriweather', serif;
+}
+
+#sobreMi{
+    text-align: start;
+    padding-left: 5%;
+    font-weight:lighter;
+}
+
+section{
+    margin: 25px 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+           
+}
+
+.row{
+    justify-content: center;
+   
+         
+}
+#col-contacto{
+    background-color: #ce798c;
+    padding-top: 5px; 
+
+}
+.caja-cara-nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ce798c;
+    border-left: 1px solid #ce798c;
+    border-right: 1px solid #ce798c;    
+}
+#foto{
+   height: 27vh; 
+   margin-top: 20px;
+   border: 10px double #ce798c;
+   margin-left: 20px;  
+   margin-bottom: 20px;
+}
+
+h1{
+    text-align: start;
+    margin-top: 15px;
+    color: #fff;
+    margin-left: 20px;
+    font-family: 'Moon Dance', cursive;
+    font-size: 400%;
+}
+
+#ip{
+    font-family: 'Moon Dance', cursive;
+    padding: 0px;   
+}
+
+#contacto{
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 5px;
+    font-family: 'Moon Dance', cursive;
+}
+
+.tipos-contacto{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#logo{
+    height: 40px; 
+    padding-left: 12px;  
+    padding-top: 10px;
+}
+
+#datos{
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+li{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+   
+}
+#btnExp,
+#btnEdu{
+    border: none;
+    border-bottom: 5px double #000;
+    background-color: transparent;
+    font-size: 300%;
+    color: #ce798c;
+    margin-top: 15px;
+    font-family: 'Merriweather', serif;
+    
+}
+
+#infoExp,
+#infoEdu{
+    display: none;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    margin-top: 15px;
+}
+
+@media (max-width: 1024px){
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #000;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        width: 72.5%;
+    
+    }
+
+
+}
+
+@media (max-width: 767px){
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #000;
+        width: 96.4%;
+        margin: 25px auto;
+        margin-bottom: 0px;
+    
+    }
+
+}
+
+@media (max-width: 425px){
+
+    html, body {  
+        margin:0px;  
+        height:100%;  
+      }
+    
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #000;
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    
+    }
+
+    .caja-cara-nombre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        
+    }
+
+    h1{
+        text-align: start;
+        margin-top: 15px;
+        color: #fff;
+        margin-left: 5px;
+        font-family: 'Moon Dance', cursive;
+        font-size: 350%;
+    }
+
+    #sobreMi{
+        text-align: start;
+        padding-left: 5%;
+        font-weight:lighter;
+        font-size: 70%;
+    }
+
+    .row{
+        justify-content: center;
+ 
+             
+    }
+    #btnExp,
+    #btnEdu{
+    border: none;
+    border-bottom: 5px double #000;
+    background-color: transparent;
+    font-size: 250%;
+    color: #ce798c;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Merriweather', serif;
+    
+    }
+
+    #col-contacto{
+        background-color: #ce798c;
+        padding-top: 5px; 
+        min-width: 100%;
+    
+    }
+
+    #datos{
+        background-color: #fff;
+        border: 1px solid #000;
+        min-width: 100%;
+    }
+
+}
+
+
+
+
