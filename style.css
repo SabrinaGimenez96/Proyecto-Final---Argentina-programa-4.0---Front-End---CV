@@ -126,6 +126,7 @@ li{
     color: #ce798c;
     margin-top: 15px;
     font-family: 'Merriweather', serif;
+    cursor: pointer;
     
 }
 
@@ -225,6 +226,7 @@ p{
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: 'Merriweather', serif;
+    cursor: pointer;
     
     }
 
